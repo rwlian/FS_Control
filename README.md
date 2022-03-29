@@ -1,5 +1,5 @@
 # FS_Control
-Quad-axis BLDC Motor Controller
+Quad-axis BLDC Motor Controller for this haptic device project [(Youtube Video)](https://youtu.be/lXv3jGfvy1U)
 ## Description
 A simple, yet high performance motor controller able to drive quad-axis 3-phase motors.  
 Each motor driver (MP6540) has intergated three half-bridge power MOSFETs and  
@@ -17,7 +17,7 @@ And PCB top view
 
 ## Motor control performance
 FOC algorithm is implemented on the MCU to drive BLDC motors, capable to control the current runing through the motor hence control motor torque output.
-The source code is not include in this project (probably in another project).
+The source code is not include in this project (probably will place it in another repo).
 Step response is used when tunning the motor controller, some plots give some ideas of the performance.
 
 * Current (torque) control  
